@@ -1,0 +1,470 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans serif;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.hautpage {
+  display: flex;
+  flex-direction: row;
+}
+
+.box.active {
+  background-color: red;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.title {
+  font-size: 2rem;
+  white-space: nowrap;
+  height: 10px;
+  flex-direction: row;
+}
+
+p .exp {
+  text-align: center;
+  font-family: "roboto";
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.box {
+  border-radius: 15px;
+  border: solid black 1px;
+  box-shadow: inset 0px -10px 27px -8px #a31925;
+  height: 130px;
+  width: 45vw;
+  flex: 1 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: red;
+  margin-left: 2.5vw;
+}
+
+.box2 h3 {
+  padding-top: 1.5rem;
+  font-size: 1.7rem;
+}
+
+.box h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+img {
+  object-fit: cover;
+  width: 49vw;
+  height: calc(49vw * 16 / 9);
+  margin-right: 0.5rem;
+  height: 100%;
+  position: relative;
+  margin-bottom: 0;
+  left: 0px;
+  top: 0px;
+  border: 1px black solid;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  width: 49vw;
+}
+
+p {
+  margin-top: 56px;
+  width: 49vw;
+}
+
+.exp {
+  font-size: 40px;
+  white-space: nowrap;
+  margin-top: 52px;
+  text-align: center;
+}
+
+.placementPage {
+  width: 49vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.para {
+  font-size: 2rem;
+  padding-right: 100px;
+  width: calc(49vw - 100px);
+  padding-top: 0px;
+}
+
+.para p {
+  padding-top: 50px;
+}
+
+#text {
+  padding-left: 100px;
+  font-size: 25px;
+  font-weight: 700;
+  width: calc(49vw - 100px);
+}
+
+.experience,
+.formation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.box2 {
+  border-radius: 15px;
+  border: solid black 1px;
+  box-shadow: inset 0px -10px 27px -8px rgb(9, 9, 209);
+  gap: 1rem;
+  height: 202px;
+  width: 45vw;
+  text-align: center;
+  background-color: rgb(20, 20, 202);
+  margin-left: 2.5vw;
+  margin-top: 0;
+  flex: 1 20rem;
+}
+
+li {
+  list-style: none;
+  font-size: 1.7rem;
+}
+
+.parcours {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 70em;
+  padding-top: 4em;
+}
+
+video {
+  width: 49vw;
+  height: 49vw;
+  overflow: hidden;
+}
+.competence {
+  text-align: center;
+  margin-top: 30px;
+  width: 80%;
+  height: 500px;
+  padding-top: 1.5%;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items:start;
+  flex-direction: row;
+  justify-content: space-around;
+  
+
+}
+#comp {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  margin-top: 10%;
+  font-size: 2rem;
+}
+
+
+#language ,#supp,#software{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+#progress-label,#progress-label2,#progress-label3,#progress-label4,#progress-label5,#progress-label6,#progress-label7,#log,#log2{
+   font-size: 15px;
+   margin-top:20px ;
+}
+.language2{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+progress[value] {
+  --color: rgb(240, 0, 180); /* the progress color */
+  --background: lightgrey; /* the background color */
+
+  width: 200px;
+  margin: 0 10px;
+  
+}
+progress[value]::-webkit-progress-bar {
+  border-radius: 10em;
+  background: var(--background);
+}
+progress[value]::-webkit-progress-value {
+  border-radius: 10em;
+  background: var(--color);
+}
+@media screen and (max-width: 767px) {
+  * {
+    width: 100vw;
+  }
+  #comp {
+    text-align: center;
+  }
+  h1 {
+    width: 100vw;
+  }
+  img {
+    width: 90vw;
+    height: calc(90vw * 16 / 9);
+    margin: 0;
+    padding: 0;
+  }
+
+  .placementPage {
+    width: 100vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+  }
+
+  .para {
+    display: block;
+    max-width: 100vw;
+  }
+
+  .experience,
+  .parcours {
+    display: block;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .box2 {
+    border-radius: 15px;
+    border: solid black 1px;
+    height: 202px;
+    margin-bottom: 0;
+    display: block;
+    margin-top: 1rem;
+    width: calc(100vw - 8px);
+    background-color: blue;
+    gap: 0;
+  }
+
+  .box {
+    border-radius: 15px;
+    border: solid black 1px;
+    height: 202px;
+    margin-bottom: 0;
+    width: calc(100vw - 8px);
+    display: block;
+    margin-top: 1rem;
+    background-color: red;
+    gap: 0;
+  }
+
+  .date,
+  .mois,
+  .etablissement {
+    display: block;
+    width: calc(100vw - 10px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .box h3,
+  .box ul,
+  .box li {
+    max-width: calc(100vw - 10px);
+  }
+
+  img {
+    width: 108vw;
+    overflow: hidden;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  video {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+  }
+
+  .hautpage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .para,
+  p,
+  #text,
+  p#text {
+    text-align: left;
+    font-size: 20px;
+    width: calc(100vw - 10px);
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  h1 {
+    padding-left: 10px;
+    margin: 0;
+    gap: 50px;
+  }
+
+  .exp {
+    white-space: wrap;
+    display: block;
+    max-width: 100vw;
+    font-size: 250%;
+    margin: 0;
+    padding: 0;
+  }
+  .experience,
+  .parcours {
+    display: block;
+    max-width: 100vw;
+    width: calc(100vw - 10px);
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+  }
+  .competence{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   margin-top: 80%;
+  }
+  .tech,.support,.language1{
+    display: block;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    margin-top: 10%;
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+  #comp {
+    text-align: center;
+  }
+
+
+  .box h3,
+  li {
+    font-size: 25px;
+  }
+
+  .box2 h3,
+  li {
+    font-size: 25px;
+  }
+
+  .box {
+    margin-left: 0;
+    height: 250px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    display: block;
+    width: 45vw;
+    text-align: center;
+  }
+
+  .box2 {
+    margin-left: 0;
+    margin-right: 0;
+    height: 250px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    display: block;
+    width: 45vw;
+  }
+
+  .parcours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    gap: 0;
+  }
+
+  .experience,
+  .formation {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    gap: 0;
+  }
+  .hautpage {
+    width: 100vw;
+  }
+  img {
+    width: 45vw;
+  }
+  .title {
+    width: 100%;
+  }
+  .para {
+    width: 45vw;
+  }
+  video#planete {
+    width: 70vw;
+    height: auto;
+    margin-left: -60vw;
+    margin-top: -60px;
+    z-index: -3;
+  }
+  source {
+    width: 100%;
+  }
+  .exp {
+    width: 100vw;
+    margin: 0;
+    margin-top: 15px;
+  }
+  h1 {
+    margin-top: 15px;
+  }
+}
