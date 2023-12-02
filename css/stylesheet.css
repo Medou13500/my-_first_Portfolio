@@ -441,7 +441,7 @@ progress[value]::-webkit-progress-value {
     width: 100vw;
   }
   img {
-    width: 45vw;
+    width: 30vw;
   }
   .title {
     width: 100%;
@@ -450,10 +450,9 @@ progress[value]::-webkit-progress-value {
     width: 45vw;
   }
   video#planete {
-    width: 70vw;
+    width: 50vw;
     height: auto;
-    margin-left: -60vw;
-    margin-top: -60px;
+    margin-left: -10%;
     z-index: -3;
   }
   source {
