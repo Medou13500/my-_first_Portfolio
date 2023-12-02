@@ -74,7 +74,7 @@ function animateProgressBars() {
     if (currentValue===100){
      clearInterval(intervalId);
     }
-    }, 50); // Changer l'intervalle pour ajuster la vitesse de l'animation
+    }, 20); // Changer l'intervalle pour ajuster la vitesse de l'animation
    
 }
 animateProgressBars();
