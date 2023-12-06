@@ -15,10 +15,10 @@ window.addEventListener("load", (event) => {
 }); /* exécution des action une fois completement charger */
 
 
-const mehdy = `Je m'appelle Mehdy bouzid j'ai 22 ans je suis en
- recherche d'emploi dans le domaine du developpement je souhaite
+const mehdy = `Je m'appelle Mehdy bouzid , j'ai 22 ans je suis en
+ recherche d'emploi dans le domaine du developpement. Je souhaite
  faire une formation de developpeur web pour pouvoir confirmer mon
- niveau en autodidacte ainsi que decouvrir les situations de projet`
+ niveau en autodidacte ainsi que decouvrir les situations réel d'un gestion de projet.`
 const texte = document.getElementById("text");
 let char = 0;
 
@@ -80,5 +80,10 @@ function animateProgressBars() {
 animateProgressBars();
    
 });  
+
+const terre = document.getElementById("terre");
+window.addEventListener("load", (event) => {
+    terre.play();
+}); /* exécution des action une fois completement charger */
 
 
