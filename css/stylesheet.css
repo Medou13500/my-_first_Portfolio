@@ -48,7 +48,6 @@ p .exp {
 .box {
   border-radius: 15px;
   border: solid black 1px;
-  box-shadow: inset 0px -10px 27px -8px #a31925;
   height: 130px;
   width: 45vw;
   flex: 1 20rem;
@@ -56,7 +55,8 @@ p .exp {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  background-color: red;
+  background-color: rgb(75, 133, 219);
+ 
   margin-left: 2.5vw;
 }
 
@@ -145,7 +145,7 @@ p {
   height: 202px;
   width: 45vw;
   text-align: center;
-  background-color: rgb(20, 20, 202);
+  background-color: rgba(100, 100, 223, 0.829);
   margin-left: 2.5vw;
   margin-top: 0;
   flex: 1 20rem;
@@ -317,7 +317,7 @@ a{
     display: block;
     margin-top: 1rem;
     width: calc(100vw - 8px);
-    background-color: blue;
+    background-color: rgb(91, 236, 236);
     gap: 0;
   }
 
@@ -329,7 +329,9 @@ a{
     width: calc(100vw - 8px);
     display: block;
     margin-top: 1rem;
-    background-color: red;
+    background-color: rgb(91, 236, 236);
+    
+  
     gap: 0;
   }
 
